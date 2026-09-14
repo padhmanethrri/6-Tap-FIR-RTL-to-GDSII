@@ -305,45 +305,6 @@ The reported implementation showed:
 
 ---
 
-##  Repository Structure
-
-```text
-6-Tap-FIR-RTL-to-GDSII/
-│
-├── README.md
-│
-├── rtl/
-│   ├── firfilter.v
-│   └── dff.v
-│
-├── simulation/
-│   └── fir_filter_tb.v
-│
-├── synthesis/
-│   ├── constraints/
-│   └── reports/
-│
-├── physical_design/
-│   ├── floorplan/
-│   ├── placement/
-│   ├── cts/
-│   └── routing/
-│
-├── reports/
-│   ├── area.rpt
-│   ├── power.rpt
-│   ├── timing.rpt
-│   └── qor.rpt
-│
-├── results/
-│
-└── docs/
-    └── project_report.pdf
-```
-
-> The repository structure will be expanded as the RTL, simulation files, synthesis files, backend scripts, and reports are added and reproduced.
-
----
 
 ##  Future Work
 
