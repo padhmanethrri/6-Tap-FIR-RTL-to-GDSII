@@ -2,7 +2,7 @@
 
 An 8-bit, 6-tap Finite Impulse Response (FIR) filter implemented in Verilog and taken through an ASIC RTL-to-GDSII design flow using Cadence EDA tools.
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the implementation of a fixed-coefficient FIR filter, starting from RTL design and functional simulation and progressing through synthesis, placement, routing, timing analysis, power analysis, and physical verification.
 
@@ -21,7 +21,7 @@ The design uses **8-bit input data** and produces a **16-bit output**.
 
 ---
 
-## 🧮 FIR Filter Architecture
+##  FIR Filter Architecture
 
 The filter follows a **direct-form FIR architecture** consisting of:
 
@@ -61,7 +61,7 @@ DFF → d5 ─── × h5 ───────┘
 
 ---
 
-## 📋 Design Specifications
+##  Design Specifications
 
 | Parameter | Value |
 |---|---|
@@ -75,7 +75,7 @@ DFF → d5 ─── × h5 ───────┘
 
 ---
 
-## 🔄 RTL-to-GDSII Design Flow
+##  RTL-to-GDSII Design Flow
 
 ```text
                  RTL Design
@@ -116,7 +116,7 @@ DFF → d5 ─── × h5 ───────┘
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -130,7 +130,7 @@ DFF → d5 ─── × h5 ───────┘
 
 ---
 
-## 💻 RTL Implementation
+##  RTL Implementation
 
 The RTL contains the FIR filter and D flip-flop based delay elements.
 
@@ -153,7 +153,7 @@ The RTL uses:
 
 ---
 
-## 🧪 Functional Verification
+##  Functional Verification
 
 A Verilog testbench was used to apply input samples and observe:
 
@@ -175,7 +175,7 @@ The simulation waveforms and console output were used to verify the FIR filterin
 
 ---
 
-## 📊 Synthesis — Cadence Genus
+##  Synthesis — Cadence Genus
 
 The RTL was synthesized using **Cadence Genus** targeting a **GPDK 90 nm** standard-cell library.
 
@@ -199,7 +199,7 @@ The reported positive slack indicates that the design met the timing requirement
 
 ---
 
-## 🏗️ Physical Design — Cadence Innovus
+##  Physical Design — Cadence Innovus
 
 The synthesized design was taken through the physical implementation flow using **Cadence Innovus**.
 
@@ -234,7 +234,7 @@ Routing included:
 
 ---
 
-## ⏱️ Timing Analysis
+##  Timing Analysis
 
 Final timing analysis was performed after clock tree synthesis and routing.
 
@@ -253,7 +253,7 @@ Positive slack was reported for both setup and hold analysis.
 
 ---
 
-## ⚡ Power & Rail Analysis
+##  Power & Rail Analysis
 
 Power analysis was performed to evaluate:
 
@@ -269,7 +269,7 @@ Rail analysis was also performed to examine the power delivery network and power
 
 ---
 
-## 🔍 Physical Verification
+##  Physical Verification
 
 The physical implementation included checks for:
 
@@ -287,7 +287,7 @@ The reported implementation showed:
 
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
 | Metric | Result |
 |---|---:|
@@ -305,7 +305,7 @@ The reported implementation showed:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 6-Tap-FIR-RTL-to-GDSII/
@@ -345,7 +345,7 @@ The reported implementation showed:
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 The baseline implementation can be further investigated and optimized through:
 
